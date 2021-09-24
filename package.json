@@ -1,0 +1,30 @@
+{
+  "name": "leafletjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/leaflet-omnivore": "^0.3.4",
+    "@mapbox/mapbox-gl-geocoder": "^4.7.4",
+    "@types/mapbox__mapbox-gl-geocoder": "^4.7.1",
+    "axios": "^0.21.1",
+    "css-loader": "^6.2.0",
+    "leaflet": "^1.7.1",
+    "leaflet-kmz": "^1.0.6",
+    "mapbox-gl": "^2.4.1",
+    "style-loader": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^2.4.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
